@@ -14,7 +14,7 @@ public class TestAllocation {
         allocation1 = new byte[2 * _1MB];
         allocation2 = new byte[2 * _1MB];
         allocation3 = new byte[2 * _1MB];
-        allocation4 = new byte[4 * _1MB];   // 直接分配在ParOldGen
+        allocation4 = new byte[4 * _1MB];   // 大对象直接分配在ParOldGen
     }
 
 }
