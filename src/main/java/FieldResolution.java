@@ -12,7 +12,7 @@ public class FieldResolution{
 		public static int A = 3;
 	}
 	static class Sub extends Parent implements Interface2 {
-		//public static int A = 4;
+		public static int A = 4;
 	}
 	public static void main(String[] args){
 		System.out.println(Sub.A);
