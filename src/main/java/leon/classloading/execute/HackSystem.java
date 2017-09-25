@@ -1,10 +1,12 @@
-/**
- * Created by leon on 2017/9/24.
- */
+package leon.classloading.execute;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+
+/**
+ * Created by leon on 2017/9/24.
+ */
 
 /**
  * 为JavaClass劫持java.lang.System提供支持
